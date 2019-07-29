@@ -9,7 +9,7 @@ square.onclick=function(){
 
   square.style.background = bgColor
   this.innerHTML=count
-let table = document.getElementById("statistic");
+let table = document.getElementById("content");
 let tr = document.createElement("tr");
 tr.innerHTML = `<td>${count}</td> <td>${bgColor}</td>`
 table.appendChild(tr);
