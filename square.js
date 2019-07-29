@@ -11,6 +11,6 @@ square.onclick=function(){
   this.innerHTML=count
 let table = document.getElementById("content");
 let tr = document.createElement("tr");
-tr.innerHTML = `<td>${count}</td> <td>${bgColor}</td>`
+tr.innerHTML = `<td>${count} step</td> <td>color: ${bgColor}</td>`
 table.appendChild(tr);
 }

@@ -14,9 +14,19 @@
 
 #statistic {
   align-items: center;
+  border-collapse: collapse;
 }
 
 .table {
   display: flex;
   justify-content: center;
+}
+
+#content {
+  border: 1px solid lightgrey;
+}
+
+tr td {
+  padding: 3px;
+  border: 1px solid lightgrey;
 }
